@@ -7,10 +7,14 @@ public class App {
         
         // Erzeugen eines Dozierenden-Objekts
         Dozierender dozierender = new Dozierender("Prof. Dr. Müller", "Informatik", "A123");
-
-
+        
         // Aufruf der Methode "frageBeantworten"
         dozierender.frageBeantworten("Das, was wir im Praktikum gemacht haben.");
+        
+
+        //aufruf der Methode "feedbackVonStudierenden"
+        dozierender.feedbackVonStudierenden("Das Praktikum war sehr interessant.");
+        
       
         
 
@@ -25,5 +29,6 @@ public class App {
 
         // Aufruf der Methode "sprechStundenAnfrage"
         student1.sprechStundenAnfrage("Montag", 12, 14);
+
     }
 }
