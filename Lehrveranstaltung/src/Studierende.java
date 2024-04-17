@@ -4,6 +4,7 @@ public class Studierende {
     private int matrikelnummer;
     private String studiengang;
     private String wochentag;
+    private String tag;
     private int monat;
     private int jahr;
     private int uhrzeit;
@@ -42,7 +43,7 @@ public class Studierende {
         return tag;
     }
 
-    public int getMotna() {
+    public int getMonat() {
         return monat;
     }
 
