@@ -1,8 +1,10 @@
 public class Dozierender {
+    
     // Datenfelder
     private String name;
     private String fakultaet;
     private String bueronummer;
+
     // Konstruktor
     public Dozierender(String name, String fakultaet, String bueronummer) {
         this.name = name;
@@ -25,7 +27,7 @@ public class Dozierender {
     }
 
     // Öffentliche Methode zum Beantworten von Fragen
-    public void frageBeantworten(Studenten studenten, String antwort) {
-        System.out.println(name + " antwortet " + studenten.getName() + ": " + antwort);
+    public void frageBeantworten(String antwort) {
+        System.out.println(name + " antwortet: " + antwort);
     }
 }
