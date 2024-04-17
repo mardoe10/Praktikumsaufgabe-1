@@ -66,7 +66,7 @@ public class Lehrveranstaltungen {
     }
 
     //Öffentliche Methode zum Anzeigen der Veranstaltungsdetails
-    public void anzeigenDerVeranstaltungsdetails() {
+    public void anzeigenVeranstaltungsdetails() {
         System.out.println("Titel: " + Titel);
         System.out.println("Dozierender: " + dozierender.getName());
         System.out.println("Fakultät: " + dozierender.getFakultaet());
