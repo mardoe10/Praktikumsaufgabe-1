@@ -14,7 +14,7 @@ public class Studierende {
         this.studiengang = studiengang;
     }
 
-    //  Aufgabe 1  Öffentliche Methode Frageatellen
+    // Aufgabe 1  Öffentliche Methode Frageatellen
     public void frageStellen(String frage) {
         //System.out.println(name + " :"+ frage);
         dozierender.frageBeantworten(this, frage);
