@@ -1,4 +1,4 @@
-java.util.Date;
+import java.util.Date;
 
 public class Vorlesungsstunde {
 
@@ -16,7 +16,7 @@ public class Vorlesungsstunde {
     }
 
     //Anzeige Details der Vorlesungsstunde
-    public void anzeigenDetails(String thema, String Datum, String uhrzeit, String raum) {
+    public void anzeigenVorlesungsstundeDetails(String thema, String Datum, String uhrzeit, String raum) {
         System.out.println("Thema: " + thema);
         System.out.println("Datum: " + datum);
         System.out.println("Uhrzeit: " + uhrzeit);
