@@ -24,9 +24,6 @@ public class Studierende {
     public void sprechStundenAnfrage(String wochentag, int tag, int monat, int jahr, int uhrzeit){
         System.out.println(name + " :Haben Sie am " + wochentag + " den " + tag + "." + monat + "." + jahr + "." + " um " + uhrzeit + " Uhr Zeit für eine Sprechstunde?");
     }
-
-
-
     public String getName() {
         return name;
     }
