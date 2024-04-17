@@ -14,9 +14,10 @@ public class Studierende {
         this.studiengang = studiengang;
     }
 
-    // Öffentliche Methode Frageatellen
+    //  Aufgabe 1  Öffentliche Methode Frageatellen
     public void frageStellen(String frage) {
-        System.out.println(name + " :"+ frage);
+        //System.out.println(name + " :"+ frage);
+        dozierender.frageBeantworten(this, frage);
     }
 
     public void sprechStundenAnfrage(String tag, int datum, int uhrzeit){
